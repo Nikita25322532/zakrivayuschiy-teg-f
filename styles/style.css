@@ -95,7 +95,7 @@
   .card__label {
     -webkit-text-stroke: 1px var(--text-stroke-color);
     
-    text-shadow: none;
+     text-shadow: none;
   }
 }
 
@@ -140,7 +140,6 @@
 
 .button:focus-visible {
   box-shadow: 2px 2px 0 var(--accent-color);
-  
 }
 
 .button:hover {
@@ -214,7 +213,6 @@
 
 
 
-
 .dialog-save[open] {
   display: grid;
   gap: 30px;
@@ -267,7 +265,6 @@
 
 .contour {
   fill: var(--contour-color);
-  transition: fill 0.1s;
 }
 
 .card__icon-button:hover .core {
@@ -277,7 +274,7 @@
 
 .card__icon-button:hover .main-body {
   fill: var(--contour-color);
-  transition: fill 0.3s 0.05s;
+  transition: fill 0.3s;
 }
 
 .card__icon-button:active .core {
